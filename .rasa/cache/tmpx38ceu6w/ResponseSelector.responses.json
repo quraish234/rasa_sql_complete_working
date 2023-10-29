@@ -1,0 +1,37 @@
+{
+  "utter_faq/lastdemand_intro": [
+    {
+      "text": "The Last Demand is a pre-collection service providing a professional Final Notice to debtors, facilitating resolution between creditors and debtors before full debt recovery."
+    }
+  ],
+  "utter_faq/ld_res_debt_issue": [
+    {
+      "text": "Last Demand offers debtors a final opportunity to pay before their account goes to full collection, potentially preventing credit reporting and additional fees."
+    }
+  ],
+  "utter_faq/dispute_dept": [
+    {
+      "text": "Disputing a debt puts your account on hold. You may need to provide validating documents, and the expiration countdown may pause until the dispute is resolved."
+    }
+  ],
+  "utter_faq/debt_is_not_mine": [
+    {
+      "text": "If you believe the debt is not yours, you can request validating documents from the original creditor to verify its accuracy during the dispute process."
+    }
+  ],
+  "utter_faq/multiple_depts_LD": [
+    {
+      "text": "Yes, you can dispute multiple debts, and the dispute process will be initiated separately for each debt."
+    }
+  ],
+  "utter_faq/additional_fees_with_partial_payments": [
+    {
+      "text": "Additional fees may be incurred if the account expires, and the remaining balance is transferred to a collection agency."
+    }
+  ],
+  "utter_faq/partial_debt": [
+    {
+      "text": "If you make a partial payment and the account expires, the remaining balance will be sent to a collection agency for further recovery efforts."
+    }
+  ]
+}

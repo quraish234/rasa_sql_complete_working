@@ -1,0 +1,47 @@
+version: "3.1"
+
+stories:
+
+- story: greet user
+  steps:
+   - intent: greet
+   - action: utter_greet
+   - action: action_save_chat_to_mysql
+
+#- story: save chat to MySQL
+#  steps:
+#    - intent: faq  # Adjust the intent name as per your training data
+#- story: ask weather
+#  steps: 
+#   - intent: weather
+#   - action: utter_weather
+#- story: last demand
+#  steps:
+#   - user: "What is last demand?"
+#   - action: utter_last_demand
+
+#- story: about last demand
+#  steps:
+#   - user: "What do they offer?"
+#   - action: utter_last_demand_do
+
+#- story: contact time
+#  steps:
+#   - user: "Can debtors negotiate payment terms?"
+#   - action: utter_negotiate_terms
+
+#- story: resolve debt issue
+#  steps:
+#   - user: "How does last demand help resolve debt issues?"
+#   - action: utter_resolvedebt_issue
+
+#- story: disputing debt with last demand
+#  steps:
+#   - user: "What happens if I dispute a debt with last demand?"
+#   - action: utter_dispute_debtLD
+
+- story: good bye
+  steps:
+   - intent: goodbye
+   - action: utter_goodbye
+   - action: action_save_chat_to_mysql
